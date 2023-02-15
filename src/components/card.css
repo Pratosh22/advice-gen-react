@@ -1,0 +1,16 @@
+.card{
+    width: 480px;
+    height: 320px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .card{
+        width: 350px;
+        height: 250px;
+    }
+}
